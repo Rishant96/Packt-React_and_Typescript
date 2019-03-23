@@ -1,0 +1,21 @@
+Basic types:
+  (to understand what cases we should use in each type)
+
+  Primitive types:
+    They are the most basic types, primitive types are simple values that have no
+    properties. 
+
+    1. 'string': Represents a sequence of Unicode characters
+    2. 'number': Represents both integers and floating-point numbers
+    3. 'boolean': Represents a logical true or false
+    4. 'undefined': Represents a value that hasn't been initialized yet
+    5. 'null': Represents no value 
+
+  Types annotations:
+    In Javascript, types for variables can also change at runtime. For example,
+    a variable that holds a number can later be replaced by a string.
+    (Usually, this is unwanted behaviour and can result in a bug in our app.)
+
+    Typescript annotations let us declare variables with specific types when we
+    writing our code. This allows the TypeScript compiler to check that the code
+    adheres to these types before the code executes at runtime.
